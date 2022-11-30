@@ -1,0 +1,19 @@
+.maincontent{
+    margin-top: 131px;
+}
+.hello__title{
+    margin-bottom: 28px;
+    width: 511px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: white;
+}
+.hello__subtitle{
+    margin-bottom: 33px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}

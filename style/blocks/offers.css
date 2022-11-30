@@ -1,0 +1,78 @@
+.offers{
+    margin-top: 246px;
+}
+.title--fire::after{
+    display: inline-block;
+    content: "";
+    background-image: url('../../img/fire.png');
+    width: 21px;
+    height: 28px;
+    position: relative;
+    vertical-align: middle;
+    margin-left: 12px;
+}
+.offers__item{
+    display: inline-block;
+    background-color: white;
+    height: 449px;
+    width: 362px;
+    margin-right: 23px;
+}
+.offers__item:last-child{
+    margin-right: 0;
+}
+.offers__feature{
+    display: inline-block;
+}
+.offers__feature-icon{
+    display: inline-block;
+}
+.offers__feature-text{
+    display: inline-block;
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color:#666666;
+    vertical-align: top;
+}
+.offers__feature:nth-child(2){
+    margin-left: 28px;
+}
+
+.offers__content{
+    margin-left: 22px;
+    width: 324px;
+    margin-top: 33px;
+}
+.offers__title{
+    margin-bottom: 21px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color:black;
+}
+.offers__features{
+    margin-bottom: 24px;
+}
+.offers__text{
+    margin-bottom: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color:#303030;
+}
+.button--light{
+    width: 135px;
+    padding: 18px 30px;
+    background-color: white;
+    color: #F5170E;
+    border: 1.5px #F5170E solid;
+}
+.button--light:hover{
+    background-color: #F5170E;
+    color: white;
+}

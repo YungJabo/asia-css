@@ -1,0 +1,39 @@
+.footer{
+    padding-bottom: 65px;
+}
+.footer-logo::before{
+    content: "";
+    position: absolute;
+    width: 1142px;
+    height: 1px;
+    background-color: #FFFFFF;
+   top:-45px;
+   opacity: 0.1;
+}
+.footer-logo{
+    margin-top: 102px;
+    position: relative;
+}
+.footer-menu{
+    margin-top: 116px;
+    vertical-align: top;
+}
+
+.social-list{
+    display: inline-block;
+    margin-top: 106px;
+
+}
+.footer-contacts{
+    margin-top: 100px;
+    
+}
+
+.contacts__call{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+    float: right;
+}
