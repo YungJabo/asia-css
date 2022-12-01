@@ -38,3 +38,10 @@
     font-size: 13px;
     line-height: 20px;
 }
+.header{
+    position: relative;
+}
+.header__backgr{
+    position: absolute;
+    
+}

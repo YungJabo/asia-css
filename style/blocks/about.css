@@ -1,9 +1,11 @@
 .about{
     margin-top: 152px;
     height: 552px;
+    position: relative;
 }
 .about__image{
     float: left;
+    border-radius: 5px;
 }
 .about-container{
     position: relative;
@@ -17,6 +19,7 @@
     padding-top: 70px;
     padding-left: 81px;
     background-image: url('../../img/mountains.jpg');
+    border-radius: 5px;
 }
 .title--dark{
     margin-bottom: 37px;

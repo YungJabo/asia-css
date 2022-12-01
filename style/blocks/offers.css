@@ -1,5 +1,6 @@
 .offers{
     margin-top: 246px;
+    
 }
 .title--fire::after{
     display: inline-block;
@@ -14,7 +15,6 @@
 .offers__item{
     display: inline-block;
     background-color: white;
-    height: 449px;
     width: 362px;
     margin-right: 23px;
 }
@@ -71,6 +71,7 @@
     background-color: white;
     color: #F5170E;
     border: 1.5px #F5170E solid;
+    margin-bottom: 26px;
 }
 .button--light:hover{
     background-color: #F5170E;

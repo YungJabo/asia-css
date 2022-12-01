@@ -1,33 +1,30 @@
 .footer{
+    padding-top: 53px;
     padding-bottom: 65px;
+    background-color: #001821;
+    
+    
 }
-.footer-logo::before{
-    content: "";
-    position: absolute;
-    width: 1142px;
-    height: 1px;
-    background-color: #FFFFFF;
-   top:-45px;
-   opacity: 0.1;
+.footer-container{
+    border-top: 2px hsla(0, 0%, 100%, 0.1) solid;
 }
 .footer-logo{
-    margin-top: 102px;
-    position: relative;
+    margin-top: 45px;
 }
 .footer-menu{
-    margin-top: 116px;
-    vertical-align: top;
+    margin-top: 59px;
+}
+
+.footer-contacts{
+    margin-top: 42px;
 }
 
 .social-list{
     display: inline-block;
-    margin-top: 106px;
+    vertical-align: middle;
 
 }
-.footer-contacts{
-    margin-top: 100px;
-    
-}
+
 
 .contacts__call{
     font-style: normal;
