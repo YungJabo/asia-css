@@ -81,8 +81,11 @@ img {
 	max-width: 1141px;
 }
 
-.wrapper{
-    background-color: #001821;
+.wrapper--main{
+    background-image: url('../../img/backgr.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .logo, .menu, .contacts, .menu__item{
