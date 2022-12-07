@@ -80,7 +80,27 @@ img {
 	height: 100%;
 	max-width: 1141px;
 }
+.header-container{
+    padding-top: 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__right{
+    display: flex;
+    align-items: center;
+}
 
+.menu{
+    margin-left: 79px;
+}
+.menu__list{
+    display: flex;
+}
 .wrapper--main{
     background-image: url('../../img/backgr.jpg');
     background-position: center center;
@@ -88,14 +108,9 @@ img {
     background-repeat: no-repeat;
 }
 
-.logo, .menu, .contacts, .menu__item{
-    display: inline-block;
-}
-.logo{
-    float: left;
-}
+
 .contacts{
-    float: right;
+    
     width: 191px;
 }
 
@@ -119,12 +134,16 @@ img {
 }
 
 .social-list__item{
-    display: inline-block;
+    
     margin-right: 10px;
     
 }
+.social-list{
+    display: flex;
+    margin-right: 74px;
+}
 .social-list__item:nth-child(1){
-    margin-left: 274px;
+    
 }
 .social-list__item:last-child{
     margin-right: 0;
@@ -135,12 +154,13 @@ img {
 }
 
 .paginator{
-    max-width: 403px;
-    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
    
 }
 .paginator__display{
-    display: inline-block;
+    
     margin-right: 25px;
     font-style: normal;
     font-weight: 400;
@@ -148,11 +168,11 @@ img {
     line-height: 20px;
 }
 .paginator__list{
-    display: inline-block;
+    display: flex;
 }
 .paginator__item{
     cursor: pointer;
-    display: inline-block;
+    
     width: 32px;
     padding: 6px 11px;
     text-align: center;

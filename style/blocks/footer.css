@@ -1,29 +1,20 @@
 .footer{
-    padding-top: 53px;
+   padding-top: 53px;
     padding-bottom: 65px;
-    background-color: #001821;
-    
+    background-color: #001821;  
     
 }
 .footer-container{
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-top: 2px hsla(0, 0%, 100%, 0.1) solid;
-}
-.footer-logo{
-    margin-top: 45px;
-}
-.footer-menu{
-    margin-top: 59px;
+    
 }
 
-.footer-contacts{
-    margin-top: 42px;
-}
 
-.social-list{
-    display: inline-block;
-    vertical-align: middle;
 
-}
 
 
 .contacts__call{
@@ -32,5 +23,5 @@
     font-size: 11px;
     line-height: 20px;
     color: #9A9A9A;
-    float: right;
+    text-align: right;
 }

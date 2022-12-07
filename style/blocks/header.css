@@ -1,22 +1,11 @@
-.logo{
-    margin-top: 29px;
-}
-.menu{
-    margin-top: 42px;
-    margin-left: 79px;
-}
-.contacts{
-    margin-top: 27px;
-}
+
 .menu__item{
     margin-right: 54px;
 }
 .menu__item:last-child{
     margin-right: 0;
 }
-.contacts__info{
-    float: right;
-}
+
 .menu__link{
     font-style: normal;
     font-weight: 400;
@@ -37,6 +26,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 20px;
+    text-align: right;
 }
 .header{
     position: relative;
