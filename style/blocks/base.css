@@ -40,12 +40,33 @@ h6 {
 	font-weight: normal;
 	margin: 0;
 }
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: white;
+}
 h2{
     margin-bottom: 51px;
     font-style: normal;
     font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #1A1B1E;
+}
+h3{
+    font-style: normal;
+    font-weight: 700;
     font-size: 36px;
     line-height: 49px;
+    margin-bottom: 51px;
+}
+h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
 }
 
 p {
@@ -103,6 +124,12 @@ img {
 }
 .wrapper--main{
     background-image: url('../../img/backgr.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-offers{
+    background-image: url('../../img/offers/header.jpg');
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,24 +194,43 @@ img {
     font-size: 16px;
     line-height: 20px;
 }
+.paginator__display--black{
+    color: black;
+}
 .paginator__list{
     display: flex;
 }
 .paginator__item{
     cursor: pointer;
-    
     width: 32px;
     padding: 6px 11px;
     text-align: center;
     border-radius: 100%;
-    font-style: normal;
+    font-style: normal  ;
     font-weight: 700;
     font-size: 16px;
     line-height: 21px;
     -webkit-transition: 0.1s;
 }
+.paginator__item--black{
+    color: black;
+}
+
 .paginator__item:hover{
     color:#F5170E;
     background-color: white;
     transition: 0.2s;
+}
+.paginator__item--black:hover{
+    color: white;
+    background-color: #F5170E;
+}
+.paginator--offers{
+    margin-top: 70px;
+}
+.maincontent{
+    margin-top: 131px;
+}
+.maincontent--offers{
+    margin-top: 98px;
 }

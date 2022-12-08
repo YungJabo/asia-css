@@ -1,0 +1,10 @@
+.offers-footer-container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.offers-footer{
+    padding-top: 48px;
+    padding-bottom: 42px;
+}

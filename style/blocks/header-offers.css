@@ -1,0 +1,32 @@
+.header-bottom{
+    margin-top: 97px;
+    padding-bottom: 24px;
+}
+.navigation{
+    margin-top: 104px;
+    display: flex;
+    align-items: center;
+}
+.navigation__link{
+    text-decoration: underline;
+    color: #9A9A9A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.navigation__divide{
+    color: #9A9A9A;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.navigation__here{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: #9A9A9A;
+    text-decoration: underline;
+}

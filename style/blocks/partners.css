@@ -1,0 +1,18 @@
+.partners{
+    background-color: #F4F5F5;
+    padding-bottom: 117px;
+    padding-top: 88px;
+}
+h2{
+    margin-bottom: 0;
+}
+.partners__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#partners__list1{
+    margin-top: 99px;
+    margin-bottom: 88px;
+}
+
