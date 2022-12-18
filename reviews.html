@@ -38,7 +38,13 @@
                       <a href="tel:+78007003030" class="contacts__phone"
                         >8 800 700 30 30</a
                       >
-                      <div class="contacts__info">График работы</div>
+                      <div class="dropdown">
+                        <div class="contacts__info">График работы</div>
+                        <div class="dropdown__menu">
+                          <div class="dropdown__menu-time">пн-вс: 09:00 - 20:00</div>
+                          <div class="dropdown__menu-dinner">Обед: 14:00-14:30</div>
+                        </div>
+                      </div>
                     </address>
                 </div>
                 <div class="header-bottom">
@@ -56,12 +62,12 @@
                         <div class="users__content">
                         <ul class="users__list">
                             <li class="users__item">
-                              <div class="users__item__container">
+                              <div class="users__item-container">
                                 <div class="user">
                                     <img src="./img/reviews/ivan.png" alt="" class="user__img">
                                     <div class="user__about">
                                         <a href="" class="user__name">Иван Петрович</a>
-                                        <div class="user__location">Водопад Янг-бей</div>
+                                        <div class="tag tag--bg--green">Водопад Янг-бей</div>
                                     </div>
                                 </div>
                                 <span class="users__title">Крутой поход на водопады.</span>
@@ -70,12 +76,12 @@
                               </div>
                               </li>
                             <li class="users__item">
-                              <div class="users__item__container">
+                              <div class="users__item-container">
                                 <div class="user">
                                     <img src="./img/reviews/liza.png" alt="" class="user__img">
                                     <div class="user__about">
                                         <a class="user__name">Лиза Сидорова</a>
-                                        <div class="user__location">Тур по Тайланду</div>
+                                        <div class="tag tag--bg--green">Тур по Тайланду</div>
                                     </div>
                                 </div>
                                 <span class="users__title">Интерестный тур по Таю.</span>
@@ -87,12 +93,12 @@
 
                         <ul class="users__list">
                             <li class="users__item">
-                              <div class="users__item__container">
+                              <div class="users__item-container">
                                 <div class="user">
                                     <img src="./img/reviews/katya.png" alt="" class="user__img">
                                     <div class="user__about">
                                         <a class="user__name">Екатерина Жмых</a>
-                                        <div class="user__location">Тур на Остров обезьян</div>
+                                        <div class="tag tag--bg--green">Тур на Остров обезьян</div>
                                     </div>
                                 </div>
                                 <span class="users__title">Очень понравился тур на остров обезьян.</span>
@@ -101,12 +107,12 @@
                                 </div>
                               </li>
                             <li class="users__item">
-                              <div class="users__item__container">
+                              <div class="users__item-container">
                                 <div class="user">
                                     <img src="./img/reviews/anton.png" alt="" class="user__img">
                                     <div class="user__about">
                                         <a class="user__name">Антон Игоревич</a>
-                                        <div class="user__location">Тур по Индонезии</div>
+                                        <div class="tag tag--bg--green">Тур по Индонезии</div>
                                     </div>
                                 </div>
                                 <span class="users__title">Для первого раза выбрал тур по Индонезии. И не пожалел!</span>
@@ -161,30 +167,76 @@
             </section>
             <section class="feedback">
                 <div class="container">
-                    <h2 class="feedback__title"> Оставьте отзыв   </h2>
-                    <form class="feedback__user">
-                            <input type="text" class="feedback__info" placeholder="Как вас зовут?">
-                            <input type="text" class="feedback__info" placeholder="Ссылка на профиль VK">
-                    </form>
-                    <form  class="feedback__review-text">
-                        <input type="text" class="feedback__info feedback__info--review" placeholder="Напишите свой честный отзыв ;)">
-                    </form>
-                        <div class="feedback__about">
-                            <div class="feedback__question">Какими услугами компании пользуетесь?</div>
-                           
-                            <ul class="feedback__list">
-                                <li class="feedback__item"><a href="" class="feedback__item__link">   Остров обезьян</a></li>
-                                <li class="feedback__item"><a href="" class="feedback__item__link">   Тур по Тайланду</a></li>
-                                <li class="feedback__item"><a href="" class="feedback__item__link">   Водопад Янг-бей</a></li>
-                                <li class="feedback__item"><a href="" class="feedback__item__link">   Тур по Индонезии</a></li>
-                                <li class="feedback__item"><a href="" class="feedback__item__link">   Никакими</a></li>
-                                <li class="feedback__item"><a href="" class="feedback__item__link">   Тур по Бали</a></li>
-                              <li class="feedback__item"><a href="" class="feedback__item__link">   Другое</a></li>
-                            </ul>
+                    <h2 class="feedback__title"> Оставьте отзыв </h2>
+                    <form class="form">
+                      <div class="form__row">
+                            <input type="text" class="form__input" placeholder="ФИО">
+                            <input type="text" class="form__input" placeholder="Ссылка на профиль VK">
                         </div>
+
+                        <div class="form__row">
+                          <textarea class="form__input form__input--textarea" placeholder="Напишите свой честный отзыв ;)"></textarea>
+                      </div>
+                    </form>
+                    <div class="form__controls">
+                      <div class="form__controls-title">
+                        Какими услугами компании пользуетесь?
+                      </div>
+                      <ul class="controls">
+                        <li class="controls__item">
+                          <label  class="controls__elem">
+                            <input type="checkbox" class="controls__checkbox">
+                          <div class="tag controls__tag">Остров обезьян</div>
+                        </label>
+                        </li>
+
+                        <li class="controls__item">
+                          <label  class="controls__elem">
+                            <input type="checkbox" class="controls__checkbox">
+                          <div class="tag controls__tag">Тур по Тайланду</div>
+                        </label>
+                        </li>
+
+                        <li class="controls__item">
+                          <label  class="controls__elem">
+                            <input type="checkbox" class="controls__checkbox">
+                          <div class="tag controls__tag">Водопад Янг-бей</div>
+                        </label>
+                        </li>
+
+                        <li class="controls__item">
+                          <label  class="controls__elem">
+                            <input type="checkbox" class="controls__checkbox">
+                          <div class="tag controls__tag">Тур по Индонезии</div>
+                        </label>
+                        </li>
+
+                        <li class="controls__item">
+                          <label  class="controls__elem">
+                            <input type="checkbox" class="controls__checkbox">
+                          <div class="tag controls__tag">Никакими</div>
+                        </label>
+                        </li>
+
+                        <li class="controls__item">
+                          <label  class="controls__elem">
+                            <input type="checkbox" class="controls__checkbox">
+                          <div class="tag controls__tag">Тур по Бали</div>
+                        </label>
+                        </li>
+
+                        <li class="controls__item">
+                          <label  class="controls__elem">
+                            <input type="checkbox" class="controls__checkbox">
+                          <div class="tag controls__tag">Другое </div>
+                        </label>
+                        </li>
+                      </ul>
+                    </div>
+                        
                     <div class="feedback__buttons">
-                      <a href="" class="button button--clear">Очистить</a>
-                      <a href="" class="button">Отправить</a>
+                      <button type="reset" class="button button--clear">Очистить</button>
+                      <button type="submit" class="button button--submit">Отправить</button>
                     </div>
                 </div>
             </section>

@@ -27,7 +27,46 @@
     font-size: 13px;
     line-height: 20px;
     text-align: right;
+    text-decoration-line: underline;
 }
 .header{
     position: relative;
 }
+.dropdown{
+    position: relative;
+}
+.dropdown__menu{
+    transition: .3s cubic-bezier(.23,-0.25,.68,1.37);
+    transform: scaleY(0);
+    opacity: 0;
+    text-align: center;
+    transform-origin: top;
+    float: right;
+    background-image: url('../../img/dropdown.png');
+    height: 80px;
+    width: 160px;
+    background-repeat: no-repeat;
+    
+}
+.dropdown:hover .dropdown__menu{
+transform: scaleY(1);
+opacity: 1;
+
+}
+.dropdown__menu-time{
+  margin-top: 22px;
+  font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1E1F20;
+    
+}
+.dropdown__menu-dinner{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 21px;
+    color: #1E1F20;
+}
+

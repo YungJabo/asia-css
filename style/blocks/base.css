@@ -21,6 +21,7 @@ input{
 button {
 	border: 0;
 	cursor: pointer;
+
     
 }
 
@@ -108,7 +109,7 @@ img {
     padding-top: 29px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:flex-start
 }
 .header__left{
     display: flex;
