@@ -147,6 +147,7 @@
 .form__input::placeholder{
     color: #666666;
 }
+
 .form__input:focus{
     border: 1px solid #F5170E;
 }
@@ -184,7 +185,7 @@
     background-color: #B9EAE4;
     color: #1A1B1E;
 }
-.feedback__buttons{
+.form__buttons{
     display: flex;
     flex-direction: row-reverse;
     margin-top: 32px;

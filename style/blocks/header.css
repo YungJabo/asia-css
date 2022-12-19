@@ -36,8 +36,7 @@
     position: relative;
 }
 .dropdown__menu{
-    transition: .3s cubic-bezier(.23,-0.25,.68,1.37);
-    transform: scaleY(0);
+    transition: .2s cubic-bezier(.23,-0.25,.68,1.37);
     opacity: 0;
     text-align: center;
     transform-origin: top;
@@ -49,7 +48,6 @@
     
 }
 .dropdown:hover .dropdown__menu{
-transform: scaleY(1);
 opacity: 1;
 
 }
